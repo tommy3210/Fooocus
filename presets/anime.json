@@ -1,25 +1,30 @@
 {
-    "default_model": "animaPencilXL_v100.safetensors",
+    "default_model": "pony.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
         [
+            true,
             "None",
             1.0
         ],
         [
+            true,
             "None",
             1.0
         ],
         [
+            true,
             "None",
             1.0
         ],
         [
+            true,
             "None",
             1.0
         ],
         [
+            true,
             "None",
             1.0
         ]
@@ -29,16 +34,16 @@
     "default_sampler": "dpmpp_2m_sde_gpu",
     "default_scheduler": "karras",
     "default_performance": "Speed",
-    "default_prompt": "1girl, ",
+    "default_prompt": "",
     "default_prompt_negative": "",
     "default_styles": [
         "Fooocus V2",
-        "Fooocus Negative",
+        "Fooocus Semi Realistic",
         "Fooocus Masterpiece"
     ],
     "default_aspect_ratio": "896*1152",
     "checkpoint_downloads": {
-        "animaPencilXL_v100.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/animaPencilXL_v100.safetensors"
+        "pony.safetensors": "https://civitai-delivery-worker-prod.5ac0637cfd0766c97916cefa3764fbdf.r2.cloudflarestorage.com/model/492754/v6.78PX.safetensors?X-Amz-Expires=86400&response-content-disposition=attachment%3B%20filename%3D%22ponyDiffusionV6XL_v6StartWithThisOne.safetensors%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=e01358d793ad6966166af8b3064953ad/20240418/us-east-1/s3/aws4_request&X-Amz-Date=20240418T160349Z&X-Amz-SignedHeaders=host&X-Amz-Signature=83b9ef70e3e84102d0f78eaf65d21b890a40c6f4ea9d02b71b2488f13cfbda90"
     },
     "embeddings_downloads": {},
     "lora_downloads": {},
